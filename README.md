@@ -1,16 +1,14 @@
 # Project Auth
 
 ## Google Auth
-1. Go to https://console.cloud.google.com/projectcreate
-2. Let’s go to APIs, then to the Credentials tab, Configure Consent Screen
-3. Select External
-4. 
+Use https://console.cloud.google.com/projectcreate to add Google Config
 
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
+Node v20.11.0, npm 10.2.4
 
 ```bash
 $ npm install
@@ -28,30 +26,3 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
