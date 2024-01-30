@@ -17,7 +17,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Post('/login')
+  @Post('/api/auth/google/callback')
   async login(@Body('token') token): Promise<any> {
     const ticket = await client.verifyIdToken({
       idToken: token,
